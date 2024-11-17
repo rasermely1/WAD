@@ -1,0 +1,18 @@
+.resume-start {
+  height: 60pc;
+}
+
+.resume-section-titles {
+  font-size: 130%;
+  font-family: AppleMyungjo;
+  letter-spacing: 8px;
+}
+
+.break-lines {
+  color: darkslategray;
+}
+
+.info-paragraphs {
+  font-size: 90%;
+  font-family: AppleMyungjo;
+}

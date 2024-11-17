@@ -1,0 +1,66 @@
+body{
+    margin: -8px;
+    background-color: whitesmoke;
+}
+
+.header {
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    box-shadow: 1px 1px 4px;
+    background-color: pink;
+}
+
+.title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+    margin-block: 10%;
+    margin-inline: 30%;
+    padding-block: 3%;
+    box-shadow: 2px 2px 4px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.container {
+    margin-block: 15px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 15px;
+    font-size: 200%;
+}
+
+.spacer {
+    margin-top: 10%;
+}
+
+.contact {
+    margin-left: 30%;
+}
+
+.start {
+    font-size: 120%;
+    color: white;
+    border: none;
+    background-color: pink;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 20px;
+}
+
+.resume {
+    margin-inline: 35%;
+}
+
+.about {
+    font-size: 130%;
+}
+
+.paragraph {
+    margin-bottom: 40%;
+}

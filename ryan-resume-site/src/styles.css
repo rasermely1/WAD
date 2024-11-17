@@ -1,0 +1,49 @@
+.static-side {
+  background: darkslategray;
+  overflow: hidden;
+}
+
+.cv {
+  font-family: AppleMyungjo;
+}
+
+.link-options {
+  font-family: AppleGothic;
+}
+
+.big-name {
+  font-family: AppleMyungjo;
+  font-size: 300%;
+  padding-left: 20%;
+}
+
+.job-title {
+  font-family: AppleGothic;
+  font-size: 150%;
+  padding-left: 20%;
+}
+
+.contact-info {
+  font-family: AppleGothic;
+  font-size: 90%;
+  padding-left: 20%;
+}
+
+.resume-start {
+  height: 60pc;
+}
+
+.resume-section-titles {
+  font-size: 130%;
+  font-family: AppleMyungjo;
+  letter-spacing: 8px;
+}
+
+.break-lines {
+  color: darkslategray;
+}
+
+.info-paragraphs {
+  font-size: 90%;
+  font-family: AppleMyungjo;
+}
