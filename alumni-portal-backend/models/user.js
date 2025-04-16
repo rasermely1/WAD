@@ -6,5 +6,16 @@ const UserSchema = new mongoose.Schema({
     password: String,
     role: { type: String, enum: ["alumni", "admin"], default: "alumni" },
 });
+UserSchema.statics.createUser = function (userData) {
+    return this.create(userData);
+}
 
+
+
+UserSchema.statics.findByEmail = function (email) {
+    return this.findOne({ email });
+};
+UserSchema.statics.findById = function (id) {
+    return this.findById(id);
+};
 module.exports = mongoose.model("User", UserSchema);
